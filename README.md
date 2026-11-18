@@ -1,4 +1,4 @@
-# Azure Infrastructure Creation using Terraform By Raghu The Security Expert
+# Azure Infrastructure Creation using Terraform By Saurav kunal The DevOps Expert
 
 Helpful Terraform Links:
 - [Terraform Language Documentation](https://www.terraform.io/docs/language/index.html)
