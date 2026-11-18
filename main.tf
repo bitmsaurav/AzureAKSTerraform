@@ -2,7 +2,7 @@
 
 provider "azurerm" {
   features {}
-  skip_provider_registration = true
+  
 }
 
 resource "azurerm_resource_group" "aks_rg" {
@@ -28,6 +28,10 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
 
   network_profile {
     network_plugin = "azure"
+  }
+
+  node_provisioning_profile {
+    mode = "Manual"
   }
 }
 
